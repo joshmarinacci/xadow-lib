@@ -7,7 +7,9 @@ class oledmodule {
 private:
 public:
     void init();
+    void clear();
     void drawString(int x, int y, String string);
+    void drawBitmapNumber(int x, int y, int sx, int sy, int sw, int sh);
 };
 
 extern oledmodule OledModule;
